@@ -4,7 +4,7 @@
 
 The new iterable data structures in ES6 are hard to justify using as they're severely lacking in expressive power when compared to Arrays. This library's goal is to add all the expressive power of Arrays to anything iterable, including generators.
 
-Current implementation is porcelein for future sugar.
+Current implementation is porcelain for future sugar.
 
 ## Installation
 
@@ -19,7 +19,7 @@ Requires an ES6 transpiler such as [6to5](https://6to5.org/), [traceur](https://
 Most methods work just as they do for `Array.prototype`, though they
 take the iterable as the first argument and always return an iterator.
 
-Note  even `every`, `some` and `reduce` return iterators – the last value in the iterator is the value you'd expect from the corresponding `Array.prototype` method.
+Note that even `every`, `some` & `reduce` return iterators – the last value in the iterator is the value you'd expect from the corresponding `Array.prototype` method.
 
 An iterable is any object that implements `Symbol.iterator` or a generator.
 
