@@ -7,7 +7,15 @@
     "test": "6to5-node test",
     "prepublish": "6to5 index.js > chimes.js"
   },
-  "keywords": ["ES6", "iterator", "generator", "map", "set", "collection", "array"],
+  "keywords": [
+    "ES6",
+    "iterator",
+    "generator",
+    "map",
+    "set",
+    "collection",
+    "array"
+  ],
   "author": "Tim Oxley <secoif@gmail.com>",
   "license": "MIT",
   "dependencies": {},
@@ -18,5 +26,13 @@
   "directories": {
     "example": "examples",
     "test": "test"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timoxley/chimes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timoxley/chimes/issues"
+  },
+  "homepage": "https://github.com/timoxley/chimes"
 }
