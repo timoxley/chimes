@@ -6,7 +6,7 @@ The new iterable data structures in ES6 are hard to justify using as they're sev
 
 Current implementation is porcelain for future sugar.
 
-update: Looks like map/filter may eventually be added to the Collection/Iterator prototype:
+Not in the future map/filter may eventually be added to the Collection/Iterator prototype:
 
 https://esdiscuss.org/notes/2014-11-19#5-8-map-prototype-map-and-map-prototype-filter-spec-set
 
@@ -296,6 +296,8 @@ for (let item in first(new Set([2,4,6]))) {
 **Returns**: `Iterator`
 
 * * *
+
+
 
 # License
 
