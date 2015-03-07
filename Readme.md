@@ -17,7 +17,7 @@ https://esdiscuss.org/notes/2014-11-19#5-8-map-prototype-map-and-map-prototype-f
 npm install chimes
 ```
 
-Requires an ES6 transpiler such as [6to5](https://6to5.org/), [traceur](https://github.com/google/traceur-compiler) or a polyfill like [core-js](https://github.com/zloirock/core-js).
+Requires an ES6 transpiler such as [babel](https://babeljs.io/), [traceur](https://github.com/google/traceur-compiler) or a polyfill like [core-js](https://github.com/zloirock/core-js).
 
 ## Usage
 
