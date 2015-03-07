@@ -4,7 +4,7 @@
 
 ## About
 
-The new iterable data structures in ES6 are hard to justify using as they're severely lacking in expressive power when compared to Arrays. This library's goal is to add all the expressive power of Arrays to anything iterable, including generators.
+It's hard to justify using the new iterable data structures in ES6 as they're severely lacking in expressive power when compared to Arrays e.g. no map/filter/reduce etc. This library's goal is to add the expressive power of Arrays to anything iterable, including generators.
 
 Current implementation is porcelain for future sugar.
 
@@ -57,8 +57,6 @@ console.log(Array.from(doubleSet))
 * some
 * reduce
 * concat
-
-#### Helpers
 
 * first
 * last
