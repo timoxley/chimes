@@ -2,6 +2,8 @@
 
 `Array.prototype` iteration methods for any iterator.
 
+## About
+
 The new iterable data structures in ES6 are hard to justify using as they're severely lacking in expressive power when compared to Arrays. This library's goal is to add all the expressive power of Arrays to anything iterable, including generators.
 
 Current implementation is porcelain for future sugar.
